@@ -1,0 +1,27 @@
+/* MIN WIDTH */
+@media (min-width: 992px) {
+  #header .nav-link {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+/* MAX WIDTH */
+@media (max-width: 991.98px) {
+  #header .navbar-brand img {
+    max-width: 180px;
+  }
+  #header .navbar-collapse {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #servicos a.destaque .img-container {
+    height: 120px;
+  }
+
+  #servicos a.destaque .img-container img {
+    max-height: 120px;
+  }
+}

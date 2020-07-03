@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="221" height="65.64" viewBox="0 0 221 65.64">
+  <g id="Grupo_40" data-name="Grupo 40" transform="translate(-230 -23)">
+    <g id="Grupo_38" data-name="Grupo 38" transform="translate(-35 2)">
+      <path id="Caminho_75" data-name="Caminho 75" d="M582.385,349.461H566.392c0,7.771,7.161,14.07,15.992,14.07h63.938l-15.46-14.07Z" transform="translate(-301.392 -276.891)" fill="#43dde6"/>
+      <path id="Caminho_76" data-name="Caminho 76" d="M651.623,280.8H587.685v14.07h79.93C667.615,287.1,660.455,280.8,651.623,280.8Z" transform="translate(-306.693 -259.799)" fill="#364f6b"/>
+      <path id="Caminho_77" data-name="Caminho 77" d="M672.814,299.532V351.1h0c8.833,0,15.992-6.3,15.992-14.07v-37.5Z" transform="translate(-327.884 -264.462)" fill="#f83771"/>
+      <path id="Caminho_78" data-name="Caminho 78" d="M566.392,332.369h15.992V280.8h0c-8.832,0-15.992,6.3-15.992,14.07Z" transform="translate(-301.392 -259.799)" fill="#f83771"/>
+      <path id="Caminho_79" data-name="Caminho 79" d="M613.532,322.053c0,2.5-2.307,4.533-5.152,4.533s-5.153-2.029-5.153-4.533,2.307-4.533,5.153-4.533S613.532,319.549,613.532,322.053Z" transform="translate(-310.561 -268.94)"/>
+      <path id="Caminho_80" data-name="Caminho 80" d="M636.6,322.053c0,2.5-2.307,4.533-5.153,4.533s-5.152-2.029-5.152-4.533,2.307-4.533,5.152-4.533S636.6,319.549,636.6,322.053Z" transform="translate(-316.304 -268.94)"/>
+      <path id="Caminho_81" data-name="Caminho 81" d="M659.668,322.053c0,2.5-2.307,4.533-5.152,4.533s-5.153-2.029-5.153-4.533,2.307-4.533,5.153-4.533S659.668,319.549,659.668,322.053Z" transform="translate(-322.046 -268.94)"/>
+    </g>
+    <g id="Grupo_39" data-name="Grupo 39" transform="translate(-8 -8)">
+      <text id="LOGOMARCA" transform="translate(342 62)" font-size="19" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">LOGOMARCA</tspan></text>
+      <text id="Lorem_Ipsun_Dolor" data-name="Lorem Ipsun Dolor" transform="translate(342 80)" fill="#525252" font-size="12" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">LOREM IPSUN DOLOR</tspan></text>
+    </g>
+  </g>
+</svg>
