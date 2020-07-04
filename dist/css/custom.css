@@ -3,6 +3,11 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background: url(../assets/footer-bg.png) no-repeat center bottom;
+  padding-bottom: 400px;
+}
+
 #header {
   width: 100%;
   background: transparent;
@@ -12,7 +17,8 @@ html {
 #header.active {
   position: fixed;
   background: #fff;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+  z-index: 999;
 }
 
 #header .navbar-brand img {
@@ -53,17 +59,6 @@ html {
   text-transform: uppercase;
 }
 
-#sobre {
-  padding: 80px 0 40px 0;
-}
-
-#sobre img {
-}
-
-#servicos {
-  padding: 40px 0;
-}
-
 #servicos a.destaque {
   display: block;
   background: var(--light);
@@ -94,4 +89,198 @@ html {
 
 #servicos a.destaque .img-container img {
   max-height: 160px;
+}
+
+#clientes a.link-cliente {
+  padding: 0 15px;
+  background-color: #fff;
+  display: flex;
+  border: solid 1px var(--light);
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  transition: ease-out all 0.2s;
+}
+
+#clientes a.link-cliente:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+#clientes a.link-cliente:hover img {
+  filter: none;
+  opacity: 1;
+}
+
+#clientes a.link-cliente img {
+  opacity: 0.6;
+  filter: grayscale(100%);
+  max-height: 70px;
+  width: 100%;
+}
+
+#clientes .clientes-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: var(--light);
+  border-radius: 5px;
+}
+
+#clientes .clientes-texto .imagem {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  margin-left: -70px;
+  color: #b4b4b4;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+#clientes .clientes-texto .imagem span {
+  color: var(--secondary);
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: -10px;
+  font-weight: 900;
+  display: block;
+}
+
+#clientes .clientes-texto .telefone {
+  display: flex;
+  font-size: 14px;
+  color: #b4b4b4;
+}
+
+#clientes .clientes-texto .telefone span {
+  font-size: 25px;
+  color: #797979;
+  font-weight: 900;
+  display: block;
+}
+
+#clientes .clientes-texto .imagem img {
+  position: relative;
+}
+
+#contato .email {
+  border-radius: 5px;
+  background: var(--secondary);
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 30px;
+}
+
+#contato .email img {
+  position: absolute;
+  left: 30px;
+  top: -30px;
+}
+
+#contato .email form {
+  width: 60%;
+  display: flex;
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+  background: none;
+  color: #fff;
+}
+
+#contato ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contato ul li {
+  display: flex;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+#contato ul li:first-child {
+  margin-left: 0;
+}
+
+#contato ul li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: all ease-out 0.2s;
+}
+
+#contato ul li a:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+}
+
+#contato ul li img {
+  max-height: 20px;
+}
+
+#depoimentos .depoimento {
+  background: var(--light);
+  border-radius: 5px;
+  display: flex;
+  padding: 30px;
+}
+
+#depoimentos .depoimento .quote {
+  max-width: 35px;
+}
+
+#depoimentos .depoimento .name {
+  color: #aaaaaa;
+}
+
+#depoimentos .depoimento .name span {
+  color: #000;
+  font-weight: 700;
+}
+
+#servicos .button-group {
+  margin-bottom: 30px;
+}
+
+#servicos .button-group button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+}
+
+#servicos .button-group button + button {
+  margin-left: 30px;
+}
+
+#servicos .button-group button.active {
+  color: var(--primary);
+}
+
+#servicos .grid .element-item .badge {
+  font-weight: 400;
+}
+
+#servicos .grid .element-item img {
+  border-radius: 4px;
+  transition: all ease-out 0.2s;
+}
+
+#servicos .grid .element-item img:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.4);
 }

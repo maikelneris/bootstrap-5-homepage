@@ -14,6 +14,10 @@
   #header .navbar-collapse {
     width: 100%;
   }
+  #contato .email img {
+    width: 90px;
+    top: -40px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -23,5 +27,27 @@
 
   #servicos a.destaque .img-container img {
     max-height: 120px;
+  }
+
+  #clientes .clientes-texto .imagem {
+    padding: 10px 0 30px 0;
+  }
+
+  #clientes .clientes-texto .imagem img {
+    max-width: 150px;
+  }
+
+  #contato ul {
+    padding-top: 30px;
+    justify-content: center;
+  }
+
+  #contato .email {
+    padding: 60px 30px 50px 30px;
+  }
+
+  #contato .email form {
+    width: 100%;
+    flex-direction: column;
   }
 }
