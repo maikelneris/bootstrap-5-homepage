@@ -3,8 +3,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h7 {
+h6 {
   font-weight: 700;
 }
 
@@ -25,33 +24,35 @@ a:hover {
   font-weight: 400;
 }
 
+.block {
+  margin-bottom: 120px;
+}
+
 .button {
   text-transform: lowercase;
   font-weight: 500;
   padding-left: 1.4rem;
   padding-right: 1.4rem;
 }
-.button-primary {
+
+.button-primay {
   background-color: var(--primary);
   border-color: var(--primary);
 }
 
-.button-primary:hover {
+.button-primay:hover {
   background-color: var(--primary-dark);
   border-color: var(--primary-dark);
 }
-.button-primary-outline {
+
+.button-primay-outline {
   border-color: var(--primary);
   color: var(--primary);
 }
 
-.button-primary-outline:hover {
+.button-primay-outline:hover {
   background-color: var(--primary-dark);
   border-color: var(--primary-dark);
-}
-
-.block {
-  margin-bottom: 120px;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
