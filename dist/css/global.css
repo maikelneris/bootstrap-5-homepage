@@ -35,22 +35,22 @@ a:hover {
   padding-right: 1.4rem;
 }
 
-.button-primay {
+.button-primary {
   background-color: var(--primary);
   border-color: var(--primary);
 }
 
-.button-primay:hover {
+.button-primary:hover {
   background-color: var(--primary-dark);
   border-color: var(--primary-dark);
 }
 
-.button-primay-outline {
+.button-primary-outline {
   border-color: var(--primary);
   color: var(--primary);
 }
 
-.button-primay-outline:hover {
+.button-primary-outline:hover {
   background-color: var(--primary-dark);
   border-color: var(--primary-dark);
 }
